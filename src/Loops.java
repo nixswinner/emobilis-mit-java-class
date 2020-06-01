@@ -48,7 +48,7 @@ public class Loops {
         int trials = 0;
 
         //do while
-        do{
+        /*do{
             //action that happens before the condition loop
             System.out.print("Hello, Enter your Pin: ");
             String pinInput = scanner.next();
@@ -63,8 +63,58 @@ public class Loops {
                     break;
                 }
             }
-            System.out.println(trials);
-        }while (trials>0);
+            //System.out.println(trials);
+        }while (trials>0);*/
+
+        String firstname = "Demba"; //an array of characters char
+        String secondName = "DembaDaniel";
+        /*boolean result = firstname.equals(secondName);
+        if (result){
+            System.out.println(firstname+" is the same as "+secondName);
+        }else{
+            System.out.println(firstname+" is the not same as "+secondName);
+        }*/
+        /*
+        * initiator
+        * condition
+        increment/decrement*/
+        //String - arrays of characters - "abcd" a-0
+        //System.out.println("The character at position 1 "+firstname.charAt(1));
+        if (firstname.length()==secondName.length()){
+
+            int samevalue=0;
+            for (int i=0;i<firstname.length();i++){
+                //assumption firstname and second name are of the same length
+                if (firstname.charAt(i)==secondName.charAt(i)){
+                    samevalue+=0;
+                }else{
+                    samevalue+=1;
+                }
+            }
+            if (samevalue>0){
+                System.out.println("Not the same "+samevalue);
+            }else{
+                System.out.println("Same "+samevalue);
+            }
+
+        }else{
+            System.out.println("Not the same");
+        }
+
+
+       /* for (int i=0;i<secondName.length();i++){
+            System.out.println(secondName.charAt(i));
+        }*/
+
+        //for loop nested loops
+         /*for (int i=0;i<firstname.length();i++){
+            System.out.println(secondName.charAt(i));
+             for (int j=0;j<secondName.length();j++){
+
+             }
+        }*/
+
+
 
     }
 }
