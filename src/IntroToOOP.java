@@ -5,6 +5,20 @@ public class IntroToOOP {
     * */
     /*
     OOP
+    -Class( state/properties and behaviour/methods- what can they do or achieve ; )
+        User - id,name,age,gender[properties]
+             -can login, register,
+
+          Car   color,model,engine -
+                accelarate,drive,start and stop - methods
+
+    -Object
+        specifics
+        - an instance of a class - implementation.
+         Honda CRV - blue, v4
+
+
+
     *
     * */
     /*class followed by the name of that class \
@@ -20,9 +34,11 @@ public class IntroToOOP {
         apple.showFruitName("My apple");
     }
 
-    //OOP principles
+    //OOP principles concepts
     /*
-    * 1.Polymorphism
+    * 1.Poly morphism
+    *  - overloading - a situation we have the same method name but different parameters
+    *  - overriding  - we have the same methods name implemented in different @ovveride
     * 2.Encapulations
     * 3.Inheritance
     * 4.abstraction

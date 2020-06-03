@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class JavaMethods {
@@ -63,6 +64,17 @@ public class JavaMethods {
         }
 
 
+       /* String[] vowels = new String[]{"a", "b", "c"};
+
+        // Convert String Array to List
+        List<String> list =Arrays.asList(vowels);
+
+        String input ="a";
+        if(list.contains(input.toLowerCase())){
+            System.out.println("Hello A");
+        }else {
+
+        }*/
 
     }
     public static void additionOfTwoIntegers(){
