@@ -87,3 +87,19 @@ class Elephants extends Animals{
 }
 
 
+class A{
+    int status;
+}
+
+class B extends A{
+    int state;
+}
+//multi -inheritance
+
+class C extends B{
+    public static void main(String[] args) {
+        C  c = new C();
+    }
+}
+
+
